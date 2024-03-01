@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity"
+    android:background="#CFE2FF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="kalkulator"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/value1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Masukkan Angka"
+        android:textColorHint="#606060"
+        android:inputType="number"
+        android:textColor="#606060"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/value2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Masukkan Angka"
+        android:textColorHint="#606060"
+        android:inputType="number"
+        android:textColor="#606060"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Penjumlahan"
+        android:textColor="#fff"
+        android:backgroundTint="#ff698d"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pengurangan"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#ff698d"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Perkalian"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#ff698d"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pembagian"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#ff698d"/>
+
+    <TextView
+        android:id="@+id/tvHasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Hasil"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+</LinearLayout>

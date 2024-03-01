@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="kalkulator" />
+    <string name="masukkan_angka" />
+    <string name="penambahan" />
+</resources>
